@@ -1,0 +1,21 @@
+{
+  "name": "clickygame",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "server": "node server.js",
+    "client": "node scripts/start-client.js",
+    "start":  "react-scripts start",
+    "build": "react-scripts build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "installDeps": "yarn",
+    "eject": "react-scripts eject",
+    "heroku-prebuild": "yarn install",
+    "heroku-postbuild": "react-scripts build"
+  }
+}

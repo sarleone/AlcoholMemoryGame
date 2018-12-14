@@ -1,0 +1,23 @@
+.jumboT {
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  .jumboT * {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .jumboT h1, .jumboT h2 {
+    color: black;
+    font-family: "Arial Black", Gadget, sans-serif;
+  }
+  
+  .jumboT h1 {
+    font-size: 60px;
+    padding-top: 100px;
+    margin-top: 0;
+  }
+  
