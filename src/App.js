@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-//import logo from './logo.svg';
 import './App.css';
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
@@ -11,7 +10,7 @@ import alcohols from "./alcohols.json";
 class App extends Component {
   state = {
     alcohols,
-    count:1,
+    count:0,
     topCount:0
   };
 
@@ -34,7 +33,7 @@ class App extends Component {
     this.state.alcohols.forEach(function(alcohol) {
       alcohol.clicked = false;
     });
-    this.setState({count: 1});
+    this.setState({count: 0});
     if (this.state.count > this.state.topCount) {
       this.setState({topCount: this.state.count});
     }
@@ -50,7 +49,7 @@ class App extends Component {
     } else {
       found.clicked = true;
       this.shuffleCards();
-      this.setState({count: this.state.count +1});
+      this.setState({count: this.state.count += 1});
       if (this.state.count === 12) {
         alert("You're my boy, Blue!");
         this.restartGame();

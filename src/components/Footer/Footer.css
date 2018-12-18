@@ -1,6 +1,6 @@
 .footer {
     min-height: 100px;
-    background: #63a6ff;
+    background-color: grey;
     position: relative;
     font-family: "Arial Black", Gadget, sans-serif
   }
@@ -11,5 +11,5 @@ bottom: 0;
 left: 0;
 right: 0;
 padding: 3px;
-background: #006bff;
+background-color: darkslategrey;;
 }
