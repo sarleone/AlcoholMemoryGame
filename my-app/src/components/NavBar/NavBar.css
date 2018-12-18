@@ -1,0 +1,14 @@
+nav.navbar.navbar-default {
+    margin-bottom: 0;
+    position: absolute;
+    
+}
+
+p {
+    color: white;
+    margin-left: 13%;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 20px;
+    float: left;
+}
+

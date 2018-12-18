@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Cabernet Sauvignon",
+        "image": "/img/cabsav.jpg"
+    },
+    {
+        "id": 2,
+        "name": "pinot grigio",
+        "image": "/img/pinotg.jpg"
+    },
+    {
+        "id": 3,
+        "name": "tequila",
+        "image": "/img/tequila.jpg"
+    },
+    {
+        "id": 4,
+        "name": "mezcal",
+        "image": "/img/mezcal.jpg"
+    },
+    {
+        "id": 5,
+        "name": "vodka",
+        "image": "./img/vodka.jpg"
+    },
+    {
+        "id": 6,
+        "name": "gin",
+        "image": "./img/gin.jpg"
+    },
+    {
+        "id": 7,
+        "name": "beer",
+        "image": "./img/beer.jpg"
+    },
+    {
+        "id": 8,
+        "name": "whiskey",
+        "image": "./img/whiskey.jpg"
+    },
+    {
+        "id": 9,
+        "name": "mallort",
+        "image": "./img/mallort.jpg"
+    },
+    {
+        "id": 10,
+        "name": "champagne",
+        "image": "./img/champagne.jpg"
+    },
+    {
+        "id": 11,
+        "name": "cider",
+        "image": "./img/cider.jpg"
+    },
+    {
+        "id": 12,
+        "name": "rose",
+        "image": "./img/rose.jpg"
+    }
+]
